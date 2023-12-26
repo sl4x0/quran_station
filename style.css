@@ -17,5 +17,11 @@ h1 {
 }
 
 audio {
-  width: 50%;
+  width:50%;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em; 
+  }
 }
